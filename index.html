@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="phonecatApp">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Vicky AngularJs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" />
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="node_modules/angular-route/angular-route.js"></script>
+    <script src="node_modules/angular-resource/angular-resource.js"></script>
+    <script src="app/phone-list/phone-list.module.js"></script>
+    <script src="app/phone-list/phone-list.component.js"></script>
+    <script src="app/phone-detail/phone-detail.module.js"></script>
+    <script src="app/phone-detail/phone-detail.component.js"></script>
+    <script src="app/core/core.module.js"></script>
+    <script src="app/core/checkmark/checkmark.filter.js"></script>
+    <script src="app/core/phone/phone.module.js"></script>
+    <script src="app/core/phone/phone.service.js"></script>
+    <script src="app/app.module.js"></script>
+    <script src="app/app.config.js"></script>
+</head>
+<body>
+    <!-- <phone-list></phone-list> -->
+    <div ng-view></div>
+</body>
+</html>

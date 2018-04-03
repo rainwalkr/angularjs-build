@@ -1,0 +1,17 @@
+{
+  "name": "vicky-angularjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amith Francis",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.9",
+    "angular-resource": "^1.6.9",
+    "angular-route": "^1.6.9",
+    "bootstrap": "^4.0.0"
+  }
+}
