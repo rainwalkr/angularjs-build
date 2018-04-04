@@ -1,5 +1,6 @@
+// the wrapper function
 module.exports = function(grunt){
-
+    // project and task config
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         concat: {
@@ -100,7 +101,7 @@ module.exports = function(grunt){
         }
     })
   
-
+    //  Loading Grunt plugins and tasks
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-watch');
@@ -109,6 +110,7 @@ module.exports = function(grunt){
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-jshint');
 
+    // Custom tasks
     grunt.registerTask('cache-templates', 'Cache HTML', function(type) {
 
         if (type === 'prod') {
@@ -116,7 +118,7 @@ module.exports = function(grunt){
                 collapseBooleanAttributes:      true,
                 collapseWhitespace:             true,
                 removeAttributeQuotes:          true,
-                removeComments:                 true, // Only if you don't use comment directives! 
+                removeComments:                 true,
                 removeEmptyAttributes:          true,
                 removeRedundantAttributes:      true,
                 removeScriptTypeAttributes:     true,
@@ -137,5 +139,5 @@ module.exports = function(grunt){
     grunt.registerTask('serve',['browserSync', 'watch']);
 
     grunt.registerTask('default',['build'])
-    
+
 };
