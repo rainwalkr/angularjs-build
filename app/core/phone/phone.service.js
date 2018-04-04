@@ -8,5 +8,5 @@ angular.module('core.phone')
                 },
                 isArray: true
             }
-        })
-    }])
+        });
+    }]);

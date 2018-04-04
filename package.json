@@ -1,5 +1,5 @@
 {
-  "name": "vicky-angularjs",
+  "name": "phonecat-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,5 +13,16 @@
     "angular-resource": "^1.6.9",
     "angular-route": "^1.6.9",
     "bootstrap": "^4.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "grunt": "^1.0.2",
+    "grunt-angular-templates": "^1.1.0",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.0.0"
   }
 }
