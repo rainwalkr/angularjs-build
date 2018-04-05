@@ -16,6 +16,8 @@
   },
   "devDependencies": {
     "browser-sync": "^2.23.6",
+    "chalk": "^2.3.2",
+    "del": "^3.0.0",
     "grunt": "^1.0.2",
     "grunt-angular-templates": "^1.1.0",
     "grunt-browser-sync": "^2.2.0",
@@ -23,6 +25,18 @@
     "grunt-contrib-cssmin": "^2.2.1",
     "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-uglify": "^3.3.0",
-    "grunt-contrib-watch": "^1.0.0"
+    "grunt-contrib-watch": "^1.0.0",
+    "gulp": "^4.0.0",
+    "gulp-angular-templatecache": "^2.2.0",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^2.0.2",
+    "gulp-jshint": "^2.1.0",
+    "gulp-order": "^1.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1",
+    "minimist": "^1.2.0"
   }
 }
